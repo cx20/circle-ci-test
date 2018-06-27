@@ -5,12 +5,6 @@ jobs:
       - image: debian:stretch
     steps:
       - checkout
-      - run:
-        name: Greeting
-        command: echo Hello, CircleCI World.
-      - run:
-        name: Print the Current Time
-        command: date
-
+      - run: echo "Hello, CircleCI World."
 
 
